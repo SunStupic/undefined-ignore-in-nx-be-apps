@@ -16,3 +16,8 @@ const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
 });
 server.on('error', console.error);
+
+const a = undefined;
+const string1 = '1' as string | number;
+const string2 = '1' as string | undefined;
+ 
