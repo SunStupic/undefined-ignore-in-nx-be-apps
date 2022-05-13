@@ -17,7 +17,6 @@ const server = app.listen(port, () => {
 });
 server.on('error', console.error);
 
-const a = undefined;
-const string1 = '1' as string | number;
-const string2 = '1' as string | undefined;
- 
+const a = [1].find(x => x !== 1);
+const b = undefined;
+const c = '1' as string | undefined;
